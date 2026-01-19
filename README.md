@@ -31,12 +31,9 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='https://youtu.be/61nbY1sLZrc' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+[![Video Walkthrough](https://img.youtube.com/vi/61nbY1sLZrc/0.jpg)](https://youtu.be/61nbY1sLZrc)
 
-<!-- Replace this with whatever GIF tool you used! -->
-Video Recorded on Mac the uploaded to Youtube
-<!-- Recommended tools:
-Screen Recorded on Mac. -->
+*Click the thumbnail above to watch the video walkthrough on YouTube*
 
 ## Notes
 
