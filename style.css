@@ -73,3 +73,175 @@ button {
     margin: 1%;
     border-radius: 7px;
 }
+
+/* ========== Search Styles ========== */
+.search-container {
+    max-width: 800px;
+    margin: 30px auto;
+    display: flex;
+    gap: 10px;
+    padding: 0 20px;
+}
+
+#search-input {
+    flex: 1;
+    padding: 12px 20px;
+    border: 2px solid #ddd;
+    border-radius: 25px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+#search-input:focus {
+    outline: none;
+    border-color: #4a6fa5;
+}
+
+#search-btn {
+    padding: 12px 30px;
+    background-color: #4a6fa5;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+#search-btn:hover {
+    background-color: #3a5a80;
+}
+
+/* ========== Enhanced Game Cards ========== */
+.game-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    position: relative;
+    overflow: hidden;
+}
+
+.game-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.progress-container {
+    height: 8px;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    margin: 15px 0;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 100%;
+    border-radius: 4px;
+    transition: width 0.5s ease;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}
+
+.stat {
+    text-align: center;
+    flex: 1;
+}
+
+.stat-value {
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #4a6fa5;
+}
+
+.stat-label {
+    display: block;
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 5px;
+}
+
+.pledge-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #4a6fa5;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 15px;
+}
+
+.pledge-btn:hover {
+    background-color: #3a5a80;
+}
+
+/* ========== Filter Button Styles ========== */
+.filter-btn.active {
+    background-color: #4a6fa5;
+    color: white;
+}
+
+.filter-summary {
+    text-align: center;
+    margin: 20px 0;
+    color: #666;
+    font-style: italic;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}
+
+/* ========== No Results Style ========== */
+.no-results {
+    text-align: center;
+    padding: 50px 20px;
+    grid-column: 1 / -1;
+}
+
+.no-results h3 {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.no-results p {
+    color: #999;
+}
+
+/* ========== Responsive Design ========== */
+@media (max-width: 768px) {
+    .search-container {
+        flex-direction: column;
+    }
+    
+    .stats {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .stat {
+        padding: 10px 0;
+        border-bottom: 1px solid #eee;
+    }
+    
+    .stat:last-child {
+        border-bottom: none;
+    }
+}
+
+/* ========== Animation ========== */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.game-card {
+    animation: fadeIn 0.5s ease-out;
+}
