@@ -10,14 +10,22 @@ Time spent: **X** hours spent in total
 
 The following **required** functionality is completed:
 
-* [ ] The introduction section explains the background of the company and how many games remain unfunded.
-* [ ] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
-* [ ] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
-* [ ] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
+* [✓] The introduction section explains the background of the company and how many games remain unfunded.
+* [✓] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
+* [✓] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
+* [✓] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
 
 The following **optional** features are implemented:
-
-* [ ] List anything else that you can get done to improve the app functionality!
+* [✓] Search Functionality - Users can search for specific games by name or description keyword
+* [✓] Smooth Navigation - Navigation links smoothly scroll to different sections of the page
+* [✓] Enhanced Game Cards - Interactive game cards with progress bars, funding statistics, and pledge buttons
+* [✓] Active Filter States - Visual feedback showing which filter is currently active
+* [✓] Filter Summary - Display showing how many games are currently being shown out of total
+* [✓] Animations - Fade-in animations for game cards and hover effects
+* [✓] Responsive Design - Improved mobile responsiveness for better user experience
+* [✓] Progress Bars - Visual representation of funding progress for each game
+* [✓] Interactive Pledge Buttons - Simulated pledge functionality with user feedback
+* [✓] No Results State - Helpful message when search returns no matching games
 
 ## Video Walkthrough
 
@@ -38,7 +46,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2026] [Mohamed Abdelaal]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
