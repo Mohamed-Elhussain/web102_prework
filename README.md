@@ -1,10 +1,10 @@
-# WEB102 Prework - *Name of App Here*
+# WEB102 Prework - *Sea Monster App*
 
-Submitted by: **Your Name Here**
+Submitted by: **Mohamed Abdelaal**
 
-**Name of your app** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
+**Sea Monster App** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
-Time spent: **X** hours spent in total
+Time spent: **10** hours spent in total
 
 ## Required Features
 
@@ -42,7 +42,17 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+1. **Data Formatting and Grammar**: Ensuring proper comma separation for large numbers using `toLocaleString()` and handling singular/plural forms correctly with ternary operators.
+
+2. **DOM Management**: Learning to properly clear elements using `deleteChildElements()` before adding new content to prevent game cards from accumulating when filters are applied.
+
+3. **Event Handling**: Coordinating multiple event listeners for buttons and ensuring they work together without conflicts, especially when combining filtering and search functionality.
+
+4. **Data Sorting and Destructuring**: Understanding how to sort games by pledged amount and use destructuring to extract the top two games for the statistics section.
+
+5. **Search Implementation**: Creating a robust search function that filters games by both name and description while handling edge cases like empty search results.
+
+6. **Responsive Design**: Making the game cards and search bar work well on different screen sizes, especially mobile devices.
 
 ## License
 
