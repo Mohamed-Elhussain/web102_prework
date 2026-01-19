@@ -34,7 +34,7 @@ Here's a walkthrough of implemented features:
 <img src='https://youtu.be/61nbY1sLZrc' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+Video Recorded on Mac the uploaded to Youtube
 <!-- Recommended tools:
 Screen Recorded on Mac. -->
 
